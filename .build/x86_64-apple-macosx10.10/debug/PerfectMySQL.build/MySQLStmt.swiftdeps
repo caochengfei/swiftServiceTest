@@ -1,0 +1,833 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MySQLStmt"
+provides-nominal:
+- "12PerfectMySQL0B7SQLStmtC"
+- "12PerfectMySQL0B7SQLStmtC9FieldTypeO"
+- "12PerfectMySQL0B7SQLStmtC9FieldInfoV"
+- "12PerfectMySQL0B7SQLStmtC11FetchResultO"
+- "12PerfectMySQL0B7SQLStmtC7ResultsC"
+- "12PerfectMySQL0B7SQLStmtC7ResultsC11GeneralTypeO"
+provides-member:
+- ["12PerfectMySQL0B7SQLStmtC", ""]
+- ["12PerfectMySQL0B7SQLStmtC9FieldTypeO", ""]
+- ["12PerfectMySQL0B7SQLStmtC9FieldInfoV", ""]
+- ["12PerfectMySQL0B7SQLStmtC11FetchResultO", ""]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", ""]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC11GeneralTypeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..<"
+- !private "<"
+- "=="
+- !private ">"
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BINARY_FLAG"
+- "Bool"
+- "BooleanLiteralType"
+- "Double"
+- "Float"
+- "FloatLiteralType"
+- !private "GenerateFromPointer"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "IntegerLiteralType"
+- "IteratorProtocol"
+- "MYSQL_BIND"
+- !private "MYSQL_DATA_TRUNCATED"
+- "MYSQL_FIELD"
+- !private "MYSQL_NO_DATA"
+- "MYSQL_RES"
+- "MYSQL_STMT"
+- !private "MYSQL_TYPE_BLOB"
+- !private "MYSQL_TYPE_DATE"
+- !private "MYSQL_TYPE_DATETIME"
+- !private "MYSQL_TYPE_DECIMAL"
+- !private "MYSQL_TYPE_DOUBLE"
+- !private "MYSQL_TYPE_FLOAT"
+- !private "MYSQL_TYPE_INT24"
+- !private "MYSQL_TYPE_LONG"
+- !private "MYSQL_TYPE_LONGLONG"
+- !private "MYSQL_TYPE_LONG_BLOB"
+- !private "MYSQL_TYPE_MEDIUM_BLOB"
+- !private "MYSQL_TYPE_NEWDATE"
+- !private "MYSQL_TYPE_NEWDECIMAL"
+- !private "MYSQL_TYPE_NULL"
+- !private "MYSQL_TYPE_SHORT"
+- !private "MYSQL_TYPE_TIME"
+- !private "MYSQL_TYPE_TIMESTAMP"
+- !private "MYSQL_TYPE_TINY"
+- !private "MYSQL_TYPE_TINY_BLOB"
+- !private "MYSQL_TYPE_VAR_STRING"
+- !private "MYSQL_TYPE_YEAR"
+- !private "MemoryLayout"
+- "MySQL"
+- "MySQLStmt"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "UNSIGNED_FLAG"
+- !private "UTF8Encoding"
+- "UnsafeMutablePointer"
+- "UnsafeMutableRawBufferPointer"
+- !private "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- !private "UnsafeRawPointer"
+- "UnsignedInteger"
+- !private "assertionFailure"
+- "enum_field_types"
+- !private "memcpy"
+- "my_bool"
+- !private "my_ulonglong"
+- !private "mysql_fetch_field_direct"
+- !private "mysql_fetch_fields"
+- !private "mysql_free_result"
+- !private "mysql_stmt_affected_rows"
+- !private "mysql_stmt_bind_param"
+- !private "mysql_stmt_bind_result"
+- !private "mysql_stmt_close"
+- !private "mysql_stmt_data_seek"
+- !private "mysql_stmt_errno"
+- !private "mysql_stmt_error"
+- !private "mysql_stmt_execute"
+- !private "mysql_stmt_fetch"
+- !private "mysql_stmt_fetch_column"
+- !private "mysql_stmt_field_count"
+- !private "mysql_stmt_free_result"
+- !private "mysql_stmt_init"
+- !private "mysql_stmt_insert_id"
+- !private "mysql_stmt_next_result"
+- !private "mysql_stmt_num_rows"
+- !private "mysql_stmt_param_count"
+- !private "mysql_stmt_prepare"
+- !private "mysql_stmt_reset"
+- !private "mysql_stmt_result_metadata"
+- !private "mysql_stmt_store_result"
+- !private "||"
+- !private "~="
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "allocate"]
+- !private ["s23BidirectionalCollectionP", "baseAddress"]
+- !private ["s23BidirectionalCollectionP", "copyBytes"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "utf8"]
+- ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "deallocate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["s10CollectionP", "allocate"]
+- !private ["s10CollectionP", "baseAddress"]
+- !private ["s10CollectionP", "copyBytes"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10CollectionP", "utf8"]
+- !private ["s10ComparableP", "advanced"]
+- !private ["s10ComparableP", "allocate"]
+- !private ["s10ComparableP", "assumingMemoryBound"]
+- !private ["s10ComparableP", "deallocate"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "initialize"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["s10ComparableP", "utf8"]
+- !private ["s14CountableRangeV", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "assumingMemoryBound"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "copyBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "assumingMemoryBound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "count"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deallocate"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "initialize"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "assumingMemoryBound"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "initialize"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "utf8"]
+- !private ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "utf8"]
+- !private ["s9EquatableP", "DataTruncated"]
+- !private ["s9EquatableP", "Error"]
+- !private ["s9EquatableP", "NoData"]
+- !private ["s9EquatableP", "OK"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "advanced"]
+- !private ["s9EquatableP", "allocate"]
+- !private ["s9EquatableP", "assumingMemoryBound"]
+- !private ["s9EquatableP", "bytes"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "deallocate"]
+- !private ["s9EquatableP", "double"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "initialize"]
+- !private ["s9EquatableP", "integer"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "null"]
+- !private ["s9EquatableP", "pointee"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "utf8"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- ["12PerfectMySQL0B7SQLStmtC11FetchResultO", "DataTruncated"]
+- ["12PerfectMySQL0B7SQLStmtC11FetchResultO", "Error"]
+- ["12PerfectMySQL0B7SQLStmtC11FetchResultO", "NoData"]
+- ["12PerfectMySQL0B7SQLStmtC11FetchResultO", "OK"]
+- ["12PerfectMySQL0B7SQLStmtC11FetchResultO", "__derived_enum_equals"]
+- ["12PerfectMySQL0B7SQLStmtC11FetchResultO", "deinit"]
+- ["12PerfectMySQL0B7SQLStmtC11FetchResultO", "hashValue"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldInfoV", "FieldType"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldInfoV", "String"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldInfoV", "init"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldInfoV", "name"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldInfoV", "type"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldTypeO", "__derived_enum_equals"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldTypeO", "bytes"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldTypeO", "date"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldTypeO", "deinit"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldTypeO", "double"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldTypeO", "hashValue"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldTypeO", "integer"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldTypeO", "null"]
+- ["12PerfectMySQL0B7SQLStmtC9FieldTypeO", "string"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC11GeneralTypeO", "bytes"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC11GeneralTypeO", "date"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC11GeneralTypeO", "double"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC11GeneralTypeO", "enum_field_types"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC11GeneralTypeO", "integer"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC11GeneralTypeO", "null"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC11GeneralTypeO", "string"]
+- !private ["12PerfectMySQL19GenerateFromPointerV", "deinit"]
+- !private ["12PerfectMySQL19GenerateFromPointerV", "init"]
+- !private ["s8HashableP", "DataTruncated"]
+- !private ["s8HashableP", "Error"]
+- !private ["s8HashableP", "NoData"]
+- !private ["s8HashableP", "OK"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "advanced"]
+- !private ["s8HashableP", "allocate"]
+- !private ["s8HashableP", "assumingMemoryBound"]
+- !private ["s8HashableP", "bytes"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "deallocate"]
+- !private ["s8HashableP", "double"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "initialize"]
+- !private ["s8HashableP", "integer"]
+- !private ["s8HashableP", "null"]
+- !private ["s8HashableP", "pointee"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "utf8"]
+- !private ["Si", "init"]
+- !private ["s5Int64V", "init"]
+- !private ["s16IteratorProtocolP", "BINARY_FLAG"]
+- !private ["s16IteratorProtocolP", "Double"]
+- ["s16IteratorProtocolP", "Element"]
+- !private ["s16IteratorProtocolP", "Float"]
+- !private ["s16IteratorProtocolP", "GenerateFromPointer"]
+- !private ["s16IteratorProtocolP", "Int"]
+- !private ["s16IteratorProtocolP", "Int16"]
+- !private ["s16IteratorProtocolP", "Int32"]
+- !private ["s16IteratorProtocolP", "Int64"]
+- !private ["s16IteratorProtocolP", "Int8"]
+- !private ["s16IteratorProtocolP", "MYSQL_BIND"]
+- !private ["s16IteratorProtocolP", "MYSQL_NO_DATA"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_BLOB"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_DATE"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_DATETIME"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_DECIMAL"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_DOUBLE"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_FLOAT"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_INT24"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_LONG"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_LONGLONG"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_LONG_BLOB"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_MEDIUM_BLOB"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_NEWDATE"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_NEWDECIMAL"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_NULL"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_SHORT"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_TIME"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_TIMESTAMP"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_TINY"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_TINY_BLOB"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_VAR_STRING"]
+- !private ["s16IteratorProtocolP", "MYSQL_TYPE_YEAR"]
+- !private ["s16IteratorProtocolP", "MemoryLayout"]
+- !private ["s16IteratorProtocolP", "UInt"]
+- !private ["s16IteratorProtocolP", "UInt16"]
+- ["s16IteratorProtocolP", "UInt32"]
+- !private ["s16IteratorProtocolP", "UInt64"]
+- !private ["s16IteratorProtocolP", "UInt8"]
+- ["s16IteratorProtocolP", "UNSIGNED_FLAG"]
+- !private ["s16IteratorProtocolP", "UTF8Encoding"]
+- !private ["s16IteratorProtocolP", "UnsafeMutablePointer"]
+- !private ["s16IteratorProtocolP", "UnsafeMutableRawPointer"]
+- ["s16IteratorProtocolP", ""]
+- !private ["s16IteratorProtocolP", "_UNSIGNED_FLAG"]
+- !private ["s16IteratorProtocolP", "bind"]
+- !private ["s16IteratorProtocolP", "bindBuffer"]
+- !private ["s16IteratorProtocolP", "bindField"]
+- !private ["s16IteratorProtocolP", "bindToBlob"]
+- !private ["s16IteratorProtocolP", "bindToIntegral"]
+- !private ["s16IteratorProtocolP", "bindToNull"]
+- !private ["s16IteratorProtocolP", "bindToString"]
+- !private ["s16IteratorProtocolP", "bindToType"]
+- !private ["s16IteratorProtocolP", "binds"]
+- !private ["s16IteratorProtocolP", "currentRow"]
+- !private ["s16IteratorProtocolP", "fetchRow"]
+- !private ["s16IteratorProtocolP", "init"]
+- !private ["s16IteratorProtocolP", "isNullBuffers"]
+- !private ["s16IteratorProtocolP", "lengthBuffers"]
+- !private ["s16IteratorProtocolP", "meta"]
+- !private ["s16IteratorProtocolP", "mysqlTypeToGeneralType"]
+- !private ["s16IteratorProtocolP", "mysql_fetch_field_direct"]
+- !private ["s16IteratorProtocolP", "mysql_stmt_bind_result"]
+- !private ["s16IteratorProtocolP", "mysql_stmt_fetch"]
+- !private ["s16IteratorProtocolP", "mysql_stmt_fetch_column"]
+- !private ["s16IteratorProtocolP", "mysql_stmt_store_result"]
+- ["s16IteratorProtocolP", "next"]
+- !private ["s16IteratorProtocolP", "numFields"]
+- !private ["s16IteratorProtocolP", "stmt"]
+- !private ["s16IteratorProtocolP", "unbind"]
+- !private ["s16IteratorProtocolP", "valueForField"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["s17MutableCollectionP", "allocate"]
+- !private ["s17MutableCollectionP", "baseAddress"]
+- !private ["s17MutableCollectionP", "copyBytes"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["12PerfectMySQL0bC0C", "mysqlPtr"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "Array"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "BINARY_FLAG"]
+- ["12PerfectMySQL0B7SQLStmtC", "Bool"]
+- ["12PerfectMySQL0B7SQLStmtC", "Double"]
+- ["12PerfectMySQL0B7SQLStmtC", "FetchResult"]
+- ["12PerfectMySQL0B7SQLStmtC", "FieldInfo"]
+- ["12PerfectMySQL0B7SQLStmtC", "FieldType"]
+- ["12PerfectMySQL0B7SQLStmtC", "Float"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "GenerateFromPointer"]
+- ["12PerfectMySQL0B7SQLStmtC", "Int"]
+- ["12PerfectMySQL0B7SQLStmtC", "Int16"]
+- ["12PerfectMySQL0B7SQLStmtC", "Int32"]
+- ["12PerfectMySQL0B7SQLStmtC", "Int64"]
+- ["12PerfectMySQL0B7SQLStmtC", "Int8"]
+- ["12PerfectMySQL0B7SQLStmtC", "IteratorProtocol"]
+- ["12PerfectMySQL0B7SQLStmtC", "MYSQL_BIND"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_DATA_TRUNCATED"]
+- ["12PerfectMySQL0B7SQLStmtC", "MYSQL_FIELD"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_NO_DATA"]
+- ["12PerfectMySQL0B7SQLStmtC", "MYSQL_RES"]
+- ["12PerfectMySQL0B7SQLStmtC", "MYSQL_STMT"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_BLOB"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_DATE"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_DATETIME"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_DECIMAL"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_DOUBLE"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_FLOAT"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_INT24"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_LONG"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_LONGLONG"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_LONG_BLOB"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_MEDIUM_BLOB"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_NEWDATE"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_NEWDECIMAL"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_NULL"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_SHORT"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_TIME"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_TIMESTAMP"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_TINY"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_TINY_BLOB"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_VAR_STRING"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MYSQL_TYPE_YEAR"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "MemoryLayout"]
+- ["12PerfectMySQL0B7SQLStmtC", "MySQL"]
+- ["12PerfectMySQL0B7SQLStmtC", "MySQLStmt"]
+- ["12PerfectMySQL0B7SQLStmtC", "Results"]
+- ["12PerfectMySQL0B7SQLStmtC", "String"]
+- ["12PerfectMySQL0B7SQLStmtC", "UInt"]
+- ["12PerfectMySQL0B7SQLStmtC", "UInt16"]
+- ["12PerfectMySQL0B7SQLStmtC", "UInt32"]
+- ["12PerfectMySQL0B7SQLStmtC", "UInt64"]
+- ["12PerfectMySQL0B7SQLStmtC", "UInt8"]
+- ["12PerfectMySQL0B7SQLStmtC", "UNSIGNED_FLAG"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "UTF8Encoding"]
+- ["12PerfectMySQL0B7SQLStmtC", "UnsafeMutablePointer"]
+- ["12PerfectMySQL0B7SQLStmtC", "UnsafeMutableRawBufferPointer"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "UnsafeMutableRawPointer"]
+- ["12PerfectMySQL0B7SQLStmtC", "UnsafePointer"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "UnsafeRawPointer"]
+- ["12PerfectMySQL0B7SQLStmtC", "UnsignedInteger"]
+- ["12PerfectMySQL0B7SQLStmtC", "affectedRows"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "allocated"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "assertionFailure"]
+- ["12PerfectMySQL0B7SQLStmtC", "bindParam"]
+- ["12PerfectMySQL0B7SQLStmtC", "clearBinds"]
+- ["12PerfectMySQL0B7SQLStmtC", "close"]
+- ["12PerfectMySQL0B7SQLStmtC", "dataSeek"]
+- ["12PerfectMySQL0B7SQLStmtC", "deinit"]
+- ["12PerfectMySQL0B7SQLStmtC", "enum_field_types"]
+- ["12PerfectMySQL0B7SQLStmtC", "errorCode"]
+- ["12PerfectMySQL0B7SQLStmtC", "errorMessage"]
+- ["12PerfectMySQL0B7SQLStmtC", "execute"]
+- ["12PerfectMySQL0B7SQLStmtC", "fetch"]
+- ["12PerfectMySQL0B7SQLStmtC", "fieldCount"]
+- ["12PerfectMySQL0B7SQLStmtC", "fieldInfo"]
+- ["12PerfectMySQL0B7SQLStmtC", "fieldNames"]
+- ["12PerfectMySQL0B7SQLStmtC", "freeResult"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "genBind"]
+- ["12PerfectMySQL0B7SQLStmtC", "init"]
+- ["12PerfectMySQL0B7SQLStmtC", "insertId"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "memcpy"]
+- ["12PerfectMySQL0B7SQLStmtC", "meta"]
+- ["12PerfectMySQL0B7SQLStmtC", "my_bool"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "my_ulonglong"]
+- ["12PerfectMySQL0B7SQLStmtC", "mysqlTypeToFieldType"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_fetch_field_direct"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_fetch_fields"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_free_result"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_affected_rows"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_bind_param"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_bind_result"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_close"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_data_seek"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_errno"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_error"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_execute"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_fetch"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_fetch_column"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_field_count"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_free_result"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_init"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_insert_id"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_next_result"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_num_rows"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_param_count"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_prepare"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_reset"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_result_metadata"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "mysql_stmt_store_result"]
+- ["12PerfectMySQL0B7SQLStmtC", "nextResult"]
+- ["12PerfectMySQL0B7SQLStmtC", "numRows"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "paramBinds"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "paramBindsOffset"]
+- ["12PerfectMySQL0B7SQLStmtC", "paramCount"]
+- ["12PerfectMySQL0B7SQLStmtC", "prepare"]
+- !private ["12PerfectMySQL0B7SQLStmtC", "ptr"]
+- ["12PerfectMySQL0B7SQLStmtC", "reset"]
+- ["12PerfectMySQL0B7SQLStmtC", "resetBinds"]
+- ["12PerfectMySQL0B7SQLStmtC", "results"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So8NSObjectC", "utf8"]
+- !private ["So16NSObjectProtocolP", "utf8"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "utf8"]
+- ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "allocate"]
+- !private ["s22RandomAccessCollectionP", "baseAddress"]
+- !private ["s22RandomAccessCollectionP", "copyBytes"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s5RangeV", "map"]
+- !private ["s15RangeExpressionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "utf8"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "BINARY_FLAG"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "Bool"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "Double"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "Element"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "Float"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "GeneralType"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "GenerateFromPointer"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "Int"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "Int16"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "Int32"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "Int64"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "Int8"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_BIND"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_FIELD"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_NO_DATA"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_RES"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_BLOB"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_DATE"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_DATETIME"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_DECIMAL"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_DOUBLE"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_FLOAT"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_INT24"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_LONG"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_LONGLONG"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_LONG_BLOB"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_MEDIUM_BLOB"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_NEWDATE"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_NEWDECIMAL"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_NULL"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_SHORT"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_TIME"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_TIMESTAMP"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_TINY"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_TINY_BLOB"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_VAR_STRING"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MYSQL_TYPE_YEAR"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MemoryLayout"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "MySQLStmt"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "UInt"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "UInt16"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "UInt32"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "UInt64"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "UInt8"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "UNSIGNED_FLAG"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "UTF8Encoding"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "UnsafeMutablePointer"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "UnsafeMutableRawPointer"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "_UNSIGNED_FLAG"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "bind"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "bindBuffer"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "bindField"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "bindToBlob"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "bindToIntegral"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "bindToNull"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "bindToString"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "bindToType"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "binds"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "closed"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "currentRow"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "deinit"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "enum_field_types"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "fetchRow"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "forEachRow"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "init"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "isNullBuffers"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "lengthBuffers"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "meta"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "my_bool"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "mysqlTypeToGeneralType"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "mysql_fetch_field_direct"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "mysql_stmt_bind_result"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "mysql_stmt_fetch"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "mysql_stmt_fetch_column"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "mysql_stmt_store_result"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "next"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "numFields"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "numRows"]
+- ["12PerfectMySQL0B7SQLStmtC7ResultsC", "stmt"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "unbind"]
+- !private ["12PerfectMySQL0B7SQLStmtC7ResultsC", "valueForField"]
+- !private ["s8SequenceP", "allocate"]
+- !private ["s8SequenceP", "baseAddress"]
+- !private ["s8SequenceP", "copyBytes"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s8SequenceP", "utf8"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "advanced"]
+- !private ["s10StrideableP", "allocate"]
+- !private ["s10StrideableP", "assumingMemoryBound"]
+- !private ["s10StrideableP", "deallocate"]
+- ["s10StrideableP", "init"]
+- !private ["s10StrideableP", "initialize"]
+- !private ["s10StrideableP", "pointee"]
+- !private ["s10StrideableP", "subscript"]
+- !private ["SS", "init"]
+- !private ["SS", "utf8"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "utf8"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- !private ["Su", "init"]
+- ["s6UInt32V", "init"]
+- !private ["s6UInt64V", "init"]
+- !private ["12PerfectMySQL12UTF8EncodingV", "encode"]
+- !private ["SS8UTF8ViewV", "count"]
+- !private ["Sp", "advanced"]
+- !private ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "initialize"]
+- !private ["Sp", "pointee"]
+- !private ["Sp", "subscript"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "allocate"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "baseAddress"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "copyBytes"]
+- !private ["s29UnsafeMutableRawBufferPointerV", "count"]
+- !private ["Sv", "assumingMemoryBound"]
+- !private ["Sv", "init"]
+- !private ["SV", "init"]
+- ["s15UnsignedIntegerP", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "assumingMemoryBound"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "initialize"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s16_SwiftStringViewP", "count"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "utf8"]
+- !private ["SC16enum_field_typesV", "rawValue"]
+- !private ["SC13st_mysql_bindV", "buffer"]
+- !private ["SC13st_mysql_bindV", "buffer_length"]
+- !private ["SC13st_mysql_bindV", "buffer_type"]
+- !private ["SC13st_mysql_bindV", "init"]
+- !private ["SC13st_mysql_bindV", "is_null"]
+- !private ["SC13st_mysql_bindV", "is_unsigned"]
+- !private ["SC13st_mysql_bindV", "length"]
+- !private ["SC14st_mysql_fieldV", "flags"]
+- !private ["SC14st_mysql_fieldV", "name"]
+- !private ["SC14st_mysql_fieldV", "type"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s10ComparableP"
+- !private "s14CountableRangeV"
+- !private "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "12PerfectMySQL0B7SQLStmtC11FetchResultO"
+- "12PerfectMySQL0B7SQLStmtC9FieldInfoV"
+- "12PerfectMySQL0B7SQLStmtC9FieldTypeO"
+- "s17FixedWidthIntegerP"
+- "12PerfectMySQL0B7SQLStmtC7ResultsC11GeneralTypeO"
+- !private "12PerfectMySQL19GenerateFromPointerV"
+- "s8HashableP"
+- !private "Si"
+- !private "s5Int64V"
+- "s16IteratorProtocolP"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "12PerfectMySQL0bC0C"
+- "12PerfectMySQL0B7SQLStmtC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "12PerfectMySQL0B7SQLStmtC7ResultsC"
+- !private "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "Su"
+- "s6UInt32V"
+- !private "s6UInt64V"
+- !private "12PerfectMySQL12UTF8EncodingV"
+- !private "SS8UTF8ViewV"
+- !private "Sp"
+- !private "s29UnsafeMutableRawBufferPointerV"
+- !private "Sv"
+- !private "SV"
+- "s15UnsignedIntegerP"
+- !private "s14_ArrayProtocolP"
+- "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+- !private "SC16enum_field_typesV"
+- !private "SC13st_mysql_bindV"
+- !private "SC14st_mysql_fieldV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/typelib.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/my_alloc.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/my_command.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql_time.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/psi/psi_base.h"
+- "/usr/local/include/mysql/mysql.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql_com.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/client_plugin.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql_version.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/plugin_auth_common.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/binary_log_types.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/my_list.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/psi/psi_memory.h"
+- "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "47e7a603ab140a789689bb78c7484c19"

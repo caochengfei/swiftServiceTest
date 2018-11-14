@@ -1,0 +1,378 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CRUDRowDecoder"
+- "PivotKey"
+- "CRUDPivotRowDecoder"
+- "CRUDPivotRowReader"
+provides-nominal:
+- "11PerfectCRUD14CRUDRowDecoderC"
+- "11PerfectCRUD8PivotKeyV"
+- "11PerfectCRUD19CRUDPivotRowDecoderC"
+- "11PerfectCRUD18CRUDPivotRowReaderC"
+provides-member:
+- ["11PerfectCRUD14CRUDRowDecoderC", ""]
+- ["11PerfectCRUD8PivotKeyV", ""]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", ""]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "CRUDDecoderError"
+- "CRUDPivotRowDecoder"
+- "CRUDPivotRowReader"
+- "CRUDRowDecoder"
+- !private "CRUDSQLExeError"
+- "Codable"
+- "CodingKey"
+- "CodingUserInfoKey"
+- !private "ColumnKey"
+- !private "Data"
+- !private "Date"
+- "Decodable"
+- "Decoder"
+- "Double"
+- "Float"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "KeyedDecodingContainer"
+- "KeyedDecodingContainerProtocol"
+- "PivotKey"
+- "SQLExeDelegate"
+- "SingleValueDecodingContainer"
+- "String"
+- !private "StringLiteralType"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- !private "UUID"
+- !private "UnicodeScalarType"
+- "UnkeyedDecodingContainer"
+- !private "joinPivotIdColumnName"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["11PerfectCRUD16CRUDDecoderErrorV", "deinit"]
+- !private ["11PerfectCRUD16CRUDDecoderErrorV", "init"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "Bool"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "CRUDDecoderError"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "CRUDPivotRowReader"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "CRUDSQLExeError"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "Codable"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "CodingKey"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "CodingUserInfoKey"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "ColumnKey"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "Data"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "Date"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "Double"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "Float"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "Int"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "Int16"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "Int32"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "Int64"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "Int8"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "K"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "Key"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "KeyedDecodingContainer"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "SQLExeDelegate"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "SingleValueDecodingContainer"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "String"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "UInt"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "UInt16"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "UInt32"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "UInt64"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "UInt8"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "UUID"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "UnkeyedDecodingContainer"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "codingPath"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "container"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "deinit"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "delegate"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "init"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "joinPivotIdColumnName"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "orderedKeys"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "pivotOnType"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "singleValueContainer"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "unkeyedContainer"]
+- ["11PerfectCRUD19CRUDPivotRowDecoderC", "userInfo"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Bool"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "CodingKey"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Decodable"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Decoder"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Double"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Float"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Int"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Int16"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Int32"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Int64"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Int8"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "K"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "K2"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "Key"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "KeyedDecodingContainer"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "String"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "UInt"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "UInt16"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "UInt32"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "UInt64"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "UInt8"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "UnkeyedDecodingContainer"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "allKeys"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "codingPath"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "contains"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "decode"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "decodeIfPresent"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "decodeNil"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "deinit"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "init"]
+- !private ["11PerfectCRUD18CRUDPivotRowReaderC", "k"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "nestedContainer"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "nestedUnkeyedContainer"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "subReader"]
+- ["11PerfectCRUD18CRUDPivotRowReaderC", "superDecoder"]
+- !private ["11PerfectCRUD14CRUDRowDecoderC", "CRUDDecoderError"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "CodingKey"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "CodingUserInfoKey"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "K"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "Key"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "KeyedDecodingContainer"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "SQLExeDelegate"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "SingleValueDecodingContainer"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "UnkeyedDecodingContainer"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "codingPath"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "container"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "deinit"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "delegate"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "init"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "singleValueContainer"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "unkeyedContainer"]
+- ["11PerfectCRUD14CRUDRowDecoderC", "userInfo"]
+- !private ["11PerfectCRUD15CRUDSQLExeErrorV", "deinit"]
+- !private ["11PerfectCRUD15CRUDSQLExeErrorV", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- ["11PerfectCRUD9ColumnKeyV", "deinit"]
+- !private ["11PerfectCRUD9ColumnKeyV", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s9DecodableP", ""]
+- !private ["s9DecodableP", "_crud_pivot_id_"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "encode"]
+- ["s9DecodableP", "init"]
+- !private ["s7DecoderP", "CRUDDecoderError"]
+- !private ["s7DecoderP", "CRUDPivotRowReader"]
+- !private ["s7DecoderP", "CRUDSQLExeError"]
+- !private ["s7DecoderP", "ColumnKey"]
+- !private ["s7DecoderP", "KeyedDecodingContainer"]
+- ["s7DecoderP", ""]
+- ["s7DecoderP", "codingPath"]
+- ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "delegate"]
+- !private ["s7DecoderP", "joinPivotIdColumnName"]
+- !private ["s7DecoderP", "orderedKeys"]
+- !private ["s7DecoderP", "pivotOnType"]
+- ["s7DecoderP", "singleValueContainer"]
+- ["s7DecoderP", "unkeyedContainer"]
+- ["s7DecoderP", "userInfo"]
+- ["s9EncodableP", ""]
+- !private ["s9EncodableP", "_crud_pivot_id_"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "encode"]
+- ["s9EncodableP", "init"]
+- !private ["s7EncoderP", "container"]
+- !private ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- ["s9EquatableP", "debugDescription"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- ["s9EquatableP", "stringValue"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "debugDescription"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- ["s8HashableP", "stringValue"]
+- !private ["s22KeyedDecodingContainerV", "contains"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeNil"]
+- !private ["s22KeyedDecodingContainerV", "init"]
+- !private ["s22KeyedDecodingContainerV", "nestedContainer"]
+- !private ["s22KeyedDecodingContainerV", "nestedUnkeyedContainer"]
+- !private ["s22KeyedDecodingContainerV", "superDecoder"]
+- !private ["s30KeyedDecodingContainerProtocolP", "K2"]
+- ["s30KeyedDecodingContainerProtocolP", "Key"]
+- ["s30KeyedDecodingContainerProtocolP", ""]
+- ["s30KeyedDecodingContainerProtocolP", "allKeys"]
+- ["s30KeyedDecodingContainerProtocolP", "codingPath"]
+- ["s30KeyedDecodingContainerProtocolP", "contains"]
+- ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "init"]
+- !private ["s30KeyedDecodingContainerProtocolP", "k"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "subReader"]
+- ["s30KeyedDecodingContainerProtocolP", "superDecoder"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["11PerfectCRUD8PivotKeyV", "CodingKeys"]
+- ["11PerfectCRUD8PivotKeyV", "T"]
+- ["11PerfectCRUD8PivotKeyV", "_crud_pivot_id_"]
+- ["11PerfectCRUD8PivotKeyV", "deinit"]
+- ["11PerfectCRUD8PivotKeyV", "encode"]
+- ["11PerfectCRUD8PivotKeyV", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "next"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "11PerfectCRUD16CRUDDecoderErrorV"
+- "11PerfectCRUD19CRUDPivotRowDecoderC"
+- "11PerfectCRUD18CRUDPivotRowReaderC"
+- "11PerfectCRUD14CRUDRowDecoderC"
+- !private "11PerfectCRUD15CRUDSQLExeErrorV"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "s10CollectionP"
+- "11PerfectCRUD9ColumnKeyV"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s7DecoderP"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s22KeyedDecodingContainerV"
+- "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "11PerfectCRUD8PivotKeyV"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "11PerfectCRUD14SQLExeDelegateP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "3a852a358edaa799c522806b6f1b1955"

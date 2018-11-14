@@ -1,0 +1,513 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CRUDSQLGenError"
+- "CRUDSQLExeError"
+- "CRUDLogDestination"
+- "CRUDLogEventType"
+- "CRUDLogEvent"
+- "CRUDLogging"
+provides-nominal:
+- "11PerfectCRUD15CRUDSQLGenErrorV"
+- "11PerfectCRUD15CRUDSQLExeErrorV"
+- "11PerfectCRUD18CRUDLogDestinationO"
+- "11PerfectCRUD16CRUDLogEventTypeO"
+- "11PerfectCRUD12CRUDLogEventV"
+- "11PerfectCRUD11CRUDLoggingV"
+provides-member:
+- ["11PerfectCRUD15CRUDSQLGenErrorV", ""]
+- ["11PerfectCRUD15CRUDSQLExeErrorV", ""]
+- ["11PerfectCRUD18CRUDLogDestinationO", ""]
+- ["11PerfectCRUD16CRUDLogEventTypeO", ""]
+- ["11PerfectCRUD12CRUDLogEventV", ""]
+- ["11PerfectCRUD11CRUDLoggingV", ""]
+- ["11PerfectCRUD11CRUDLoggingV", "flush"]
+- ["11PerfectCRUD11CRUDLoggingV", "queryLogDestinations"]
+- ["11PerfectCRUD11CRUDLoggingV", "errorLogDestinations"]
+- ["11PerfectCRUD11CRUDLoggingV", "log"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+"
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "CRUDLogDestination"
+- "CRUDLogEvent"
+- "CRUDLogEventType"
+- "CRUDLogging"
+- "CRUDSQLExeError"
+- "CRUDSQLGenError"
+- "CustomStringConvertible"
+- "Date"
+- !private "DateFormatter"
+- "DispatchQueue"
+- "Error"
+- !private "FileHandle"
+- !private "FileManager"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "data"]
+- !private ["s23BidirectionalCollectionP", "forEach"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["11PerfectCRUD18CRUDLogDestinationO", "CRUDLogEvent"]
+- !private ["11PerfectCRUD18CRUDLogDestinationO", "FileHandle"]
+- !private ["11PerfectCRUD18CRUDLogDestinationO", "FileManager"]
+- ["11PerfectCRUD18CRUDLogDestinationO", "String"]
+- ["11PerfectCRUD18CRUDLogDestinationO", "console"]
+- ["11PerfectCRUD18CRUDLogDestinationO", "custom"]
+- ["11PerfectCRUD18CRUDLogDestinationO", "file"]
+- ["11PerfectCRUD18CRUDLogDestinationO", "handleEvent"]
+- ["11PerfectCRUD18CRUDLogDestinationO", "none"]
+- !private ["11PerfectCRUD18CRUDLogDestinationO", "print"]
+- ["11PerfectCRUD12CRUDLogEventV", "CRUDLogEventType"]
+- ["11PerfectCRUD12CRUDLogEventV", "Date"]
+- !private ["11PerfectCRUD12CRUDLogEventV", "DateFormatter"]
+- ["11PerfectCRUD12CRUDLogEventV", "String"]
+- ["11PerfectCRUD12CRUDLogEventV", "deinit"]
+- ["11PerfectCRUD12CRUDLogEventV", "description"]
+- ["11PerfectCRUD12CRUDLogEventV", "init"]
+- ["11PerfectCRUD12CRUDLogEventV", "msg"]
+- ["11PerfectCRUD12CRUDLogEventV", "time"]
+- ["11PerfectCRUD12CRUDLogEventV", "type"]
+- ["11PerfectCRUD16CRUDLogEventTypeO", "String"]
+- ["11PerfectCRUD16CRUDLogEventTypeO", "__derived_enum_equals"]
+- ["11PerfectCRUD16CRUDLogEventTypeO", "deinit"]
+- ["11PerfectCRUD16CRUDLogEventTypeO", "description"]
+- ["11PerfectCRUD16CRUDLogEventTypeO", "error"]
+- ["11PerfectCRUD16CRUDLogEventTypeO", "hashValue"]
+- ["11PerfectCRUD16CRUDLogEventTypeO", "info"]
+- ["11PerfectCRUD16CRUDLogEventTypeO", "query"]
+- ["11PerfectCRUD16CRUDLogEventTypeO", "warning"]
+- ["11PerfectCRUD11CRUDLoggingV", "CRUDLogDestination"]
+- ["11PerfectCRUD11CRUDLoggingV", "CRUDLogEvent"]
+- ["11PerfectCRUD11CRUDLoggingV", "CRUDLogEventType"]
+- !private ["11PerfectCRUD11CRUDLoggingV", "Date"]
+- ["11PerfectCRUD11CRUDLoggingV", "DispatchQueue"]
+- ["11PerfectCRUD11CRUDLoggingV", "String"]
+- !private ["11PerfectCRUD11CRUDLoggingV", "_errorLogDestinations"]
+- !private ["11PerfectCRUD11CRUDLoggingV", "_queryLogDestinations"]
+- ["11PerfectCRUD11CRUDLoggingV", "errorLogDestinations"]
+- ["11PerfectCRUD11CRUDLoggingV", "flush"]
+- ["11PerfectCRUD11CRUDLoggingV", "init"]
+- ["11PerfectCRUD11CRUDLoggingV", "log"]
+- !private ["11PerfectCRUD11CRUDLoggingV", "logCheckInSerialQueue"]
+- !private ["11PerfectCRUD11CRUDLoggingV", "logCheckReschedulingInSerialQueue"]
+- !private ["11PerfectCRUD11CRUDLoggingV", "logEventInSerialQueue"]
+- !private ["11PerfectCRUD11CRUDLoggingV", "loggingQueue"]
+- !private ["11PerfectCRUD11CRUDLoggingV", "pendingEvents"]
+- ["11PerfectCRUD11CRUDLoggingV", "queryLogDestinations"]
+- ["11PerfectCRUD11CRUDLoggingV", "scheduleLogCheck"]
+- !private ["11PerfectCRUD15CRUDSQLExeErrorV", "CRUDLogging"]
+- ["11PerfectCRUD15CRUDSQLExeErrorV", "String"]
+- ["11PerfectCRUD15CRUDSQLExeErrorV", "_code"]
+- ["11PerfectCRUD15CRUDSQLExeErrorV", "_domain"]
+- ["11PerfectCRUD15CRUDSQLExeErrorV", "_getEmbeddedNSError"]
+- ["11PerfectCRUD15CRUDSQLExeErrorV", "_userInfo"]
+- ["11PerfectCRUD15CRUDSQLExeErrorV", "deinit"]
+- ["11PerfectCRUD15CRUDSQLExeErrorV", "description"]
+- ["11PerfectCRUD15CRUDSQLExeErrorV", "init"]
+- !private ["11PerfectCRUD15CRUDSQLGenErrorV", "CRUDLogging"]
+- ["11PerfectCRUD15CRUDSQLGenErrorV", "String"]
+- ["11PerfectCRUD15CRUDSQLGenErrorV", "_code"]
+- ["11PerfectCRUD15CRUDSQLGenErrorV", "_domain"]
+- ["11PerfectCRUD15CRUDSQLGenErrorV", "_getEmbeddedNSError"]
+- ["11PerfectCRUD15CRUDSQLGenErrorV", "_userInfo"]
+- ["11PerfectCRUD15CRUDSQLGenErrorV", "deinit"]
+- ["11PerfectCRUD15CRUDSQLGenErrorV", "description"]
+- ["11PerfectCRUD15CRUDSQLGenErrorV", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "closeFile"]
+- !private ["s7CVarArgP", "createFile"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "forEach"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "isWritableFile"]
+- !private ["s7CVarArgP", "seekToEndOfFile"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "sync"]
+- !private ["s7CVarArgP", "write"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "data"]
+- !private ["s10CollectionP", "forEach"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10ComparableP", "data"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "closeFile"]
+- !private ["s28CustomDebugStringConvertibleP", "createFile"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "isWritableFile"]
+- !private ["s28CustomDebugStringConvertibleP", "seekToEndOfFile"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "sync"]
+- !private ["s28CustomDebugStringConvertibleP", "write"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "data"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "forEach"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "CRUDLogging"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_code"]
+- ["s23CustomStringConvertibleP", "_domain"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "_getEmbeddedNSError"]
+- ["s23CustomStringConvertibleP", "_userInfo"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "closeFile"]
+- !private ["s23CustomStringConvertibleP", "createFile"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "info"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "isWritableFile"]
+- !private ["s23CustomStringConvertibleP", "msg"]
+- ["s23CustomStringConvertibleP", "query"]
+- !private ["s23CustomStringConvertibleP", "seekToEndOfFile"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "sync"]
+- !private ["s23CustomStringConvertibleP", "time"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- ["s23CustomStringConvertibleP", "warning"]
+- !private ["s23CustomStringConvertibleP", "write"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["So13DateFormatterC", "dateFormat"]
+- !private ["So13DateFormatterC", "init"]
+- !private ["So13DateFormatterC", "string"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "data"]
+- !private ["s9DecodableP", "forEach"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "asyncAfter"]
+- !private ["So14DispatchObjectC", "sync"]
+- ["8Dispatch0A3QoSV", "background"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "asyncAfter"]
+- ["So13DispatchQueueC", "init"]
+- !private ["So13DispatchQueueC", "sync"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "data"]
+- !private ["s9EncodableP", "forEach"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "asyncAfter"]
+- ["s9EquatableP", "background"]
+- !private ["s9EquatableP", "closeFile"]
+- !private ["s9EquatableP", "createFile"]
+- !private ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "dateFormat"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "error"]
+- !private ["s9EquatableP", "forEach"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "info"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "isWritableFile"]
+- !private ["s9EquatableP", "now"]
+- ["s9EquatableP", "query"]
+- !private ["s9EquatableP", "seekToEndOfFile"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "sync"]
+- !private ["s9EquatableP", "utf8"]
+- ["s9EquatableP", "warning"]
+- !private ["s9EquatableP", "write"]
+- !private ["s5ErrorP", "CRUDLogging"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "description"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So10FileHandleC", "closeFile"]
+- !private ["So10FileHandleC", "init"]
+- !private ["So10FileHandleC", "seekToEndOfFile"]
+- !private ["So10FileHandleC", "write"]
+- !private ["So11FileManagerC", "createFile"]
+- !private ["So11FileManagerC", "init"]
+- !private ["So11FileManagerC", "isWritableFile"]
+- !private ["So9FormatterC", "dateFormat"]
+- !private ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "string"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "asyncAfter"]
+- !private ["s8HashableP", "closeFile"]
+- !private ["s8HashableP", "createFile"]
+- !private ["s8HashableP", "data"]
+- !private ["s8HashableP", "dateFormat"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "error"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "info"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isWritableFile"]
+- ["s8HashableP", "query"]
+- !private ["s8HashableP", "seekToEndOfFile"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "sync"]
+- !private ["s8HashableP", "utf8"]
+- ["s8HashableP", "warning"]
+- !private ["s8HashableP", "write"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "data"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "forEach"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["So8NSCodingP", "closeFile"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "seekToEndOfFile"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "write"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "closeFile"]
+- !private ["So8NSObjectC", "createFile"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isWritableFile"]
+- !private ["So8NSObjectC", "seekToEndOfFile"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "sync"]
+- !private ["So8NSObjectC", "write"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "asyncAfter"]
+- !private ["So16NSObjectProtocolP", "closeFile"]
+- !private ["So16NSObjectProtocolP", "createFile"]
+- !private ["So16NSObjectProtocolP", "data"]
+- !private ["So16NSObjectProtocolP", "dateFormat"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isWritableFile"]
+- !private ["So16NSObjectProtocolP", "seekToEndOfFile"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "sync"]
+- !private ["So16NSObjectProtocolP", "write"]
+- !private ["So14NSSecureCodingP", "closeFile"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "seekToEndOfFile"]
+- !private ["So14NSSecureCodingP", "write"]
+- !private ["So8NSStringC", "data"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "sync"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "forEach"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "data"]
+- !private ["s26RangeReplaceableCollectionP", "forEach"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s16RawRepresentableP", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "data"]
+- !private ["s8SequenceP", "forEach"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["SS", "data"]
+- ["SS", "init"]
+- !private ["s14StringProtocolP", "data"]
+- ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "data"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "data"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "data"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "data"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "closeFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isWritableFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seekToEndOfFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sync"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "write"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s16_SwiftStringViewP", "data"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "11PerfectCRUD18CRUDLogDestinationO"
+- "11PerfectCRUD12CRUDLogEventV"
+- "11PerfectCRUD16CRUDLogEventTypeO"
+- "11PerfectCRUD11CRUDLoggingV"
+- "11PerfectCRUD15CRUDSQLExeErrorV"
+- "11PerfectCRUD15CRUDSQLGenErrorV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- !private "So13DateFormatterC"
+- "s9DecodableP"
+- !private "So14DispatchObjectC"
+- "8Dispatch0A3QoSV"
+- "So13DispatchQueueC"
+- !private "8Dispatch0A4TimeV"
+- "s9EncodableP"
+- !private "SS10FoundationE8EncodingV"
+- "s9EquatableP"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So10FileHandleC"
+- !private "So11FileManagerC"
+- !private "So9FormatterC"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So9OS_objectC"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b88981c23bd9ed1c2c400963ddce8f17"

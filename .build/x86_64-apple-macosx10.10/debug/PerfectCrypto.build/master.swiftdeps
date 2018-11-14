@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "65fad3e468b83f987d74ea72714681f7"
+build_time: [1526476899, 169552000]
+inputs:
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Algorithms.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/ByteIO.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Extensions.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/JWT.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Keys.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/OpenSSLInternal.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/PerfectCrypto.swift": [1526436381, 0]

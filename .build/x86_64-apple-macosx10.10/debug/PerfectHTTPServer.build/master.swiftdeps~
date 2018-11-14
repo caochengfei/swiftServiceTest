@@ -1,0 +1,22 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "40e1b9707b19c080e39c9ad3dcdbbfe0"
+build_time: [1526436770, 75101000]
+inputs:
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP11/HTTP11Request.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP11/HTTP11Response.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HPACK.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HTTP2.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HTTP2Client.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HTTP2Frame.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HTTP2FrameReader.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HTTP2FrameWriter.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HTTP2PrefaceValidator.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HTTP2Request.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HTTP2Response.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HTTP2Session.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTP2/HTTP2SessionSettings.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPContentCompression.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPMultiplexer.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServer.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServerEx.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectHTTPServer/HTTPServerExConfig.swift": [1526436380, 0]

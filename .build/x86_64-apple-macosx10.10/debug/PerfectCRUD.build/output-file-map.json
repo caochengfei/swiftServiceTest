@@ -1,0 +1,161 @@
+{
+  "": {
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/master.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Coding/Coding.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Coding.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Coding/Coding.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Coding~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Coding.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Coding/CodingBindings.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingBindings.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Coding/CodingBindings.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingBindings~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingBindings.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Coding/CodingJoins.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingJoins.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Coding/CodingJoins.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingJoins~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingJoins.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Coding/CodingKeyPaths.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingKeyPaths.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Coding/CodingKeyPaths.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingKeyPaths~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingKeyPaths.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Coding/CodingNames.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingNames.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Coding/CodingNames.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingNames~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingNames.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Coding/CodingRows.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingRows.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Coding/CodingRows.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingRows~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/CodingRows.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Create.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Create.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Create.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Create~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Create.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Database.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Database.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Database.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Database~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Database.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Delete.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Delete.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Delete.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Delete~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Delete.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Expression/Comparison.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Comparison.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression/Comparison.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Comparison~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Comparison.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Expression/ComparisonInts.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/ComparisonInts.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression/ComparisonInts.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/ComparisonInts~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/ComparisonInts.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Expression/Equality.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Equality.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression/Equality.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Equality~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Equality.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Expression/EqualityInts.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/EqualityInts.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression/EqualityInts.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/EqualityInts~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/EqualityInts.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Expression/Expression.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression/Expression.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Expression/In.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/In.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression/In.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/In~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/In.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Expression/InInts.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/InInts.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression/InInts.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/InInts~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/InInts.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Expression/Like.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Like.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression/Like.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Like~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Like.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Expression/Logical.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Logical.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Expression/Logical.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Logical~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Logical.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Insert.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Insert.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Insert.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Insert~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Insert.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Join.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Join.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Join.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Join~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Join.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Logging.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Logging.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Logging.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Logging~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Logging.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/PerfectCRUD.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/PerfectCRUD.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/PerfectCRUD.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/PerfectCRUD~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/PerfectCRUD.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Select.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Select.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Select.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Select~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Select.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Table.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Table.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Table.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Table~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Table.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Update.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Update.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Update.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Update~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Update.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-CRUD.git-7099260549736980491/Sources/PerfectCRUD/Where.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Where.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Where.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Where~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.build/Where.swiftdeps"
+  }
+}

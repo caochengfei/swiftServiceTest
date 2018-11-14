@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "2bf0608a4d282fcffac664f084b71e56"
+build_time: [1526476899, 272307000]
+inputs:
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/Net.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetAddress.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetEvent.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetNamedPipe.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCP.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetTCPSSL.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-Net.git-3268755499654502659/Sources/NetUDP.swift": [1526436381, 0]

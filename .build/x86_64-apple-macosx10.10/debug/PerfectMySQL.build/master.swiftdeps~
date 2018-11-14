@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "35ac332f72117df1ce7981f01df92b3d"
+build_time: [1526449576, 506409000]
+inputs:
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL/MySQL.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL/MySQLCRUD.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL/MySQLStmt.swift": [1526436380, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL/PerfectMySQL.swift": [1526436380, 0]

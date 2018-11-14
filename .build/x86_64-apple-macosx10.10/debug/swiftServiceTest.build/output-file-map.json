@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/swiftServiceTest.build/master.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/Sources/main.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/swiftServiceTest.build/main.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/swiftServiceTest.build/main.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/swiftServiceTest.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/swiftServiceTest.build/main.swiftdeps"
+  }
+}

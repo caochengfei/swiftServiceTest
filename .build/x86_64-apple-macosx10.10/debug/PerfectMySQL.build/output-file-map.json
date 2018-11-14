@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/master.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL/MySQL.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQL.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQL.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQL~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQL.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL/MySQLCRUD.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQLCRUD.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQLCRUD.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQLCRUD~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQLCRUD.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL/MySQLStmt.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQLStmt.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQLStmt.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQLStmt~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/MySQLStmt.swiftdeps"
+  },
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL/PerfectMySQL.swift": {
+    "dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL.d",
+    "object": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL.swift.o",
+    "swiftmodule": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL~partial.swiftmodule",
+    "swift-dependencies": "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.build/PerfectMySQL.swiftdeps"
+  }
+}

@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "69a1319c797e0f2da2c7cc7e622ebde8"
+build_time: [1526476899, 647364000]
+inputs:
+  "/Users/caochengfei/Desktop/swiftServiceTest/Sources/main.swift": [1526437787, 0]

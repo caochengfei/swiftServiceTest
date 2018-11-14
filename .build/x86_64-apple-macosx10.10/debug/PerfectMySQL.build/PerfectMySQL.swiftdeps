@@ -1,0 +1,372 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GenerateFromPointer"
+- "Encoding"
+- "UTF8Encoding"
+- "MySQLOpt"
+provides-nominal:
+- "12PerfectMySQL19GenerateFromPointerV"
+- "12PerfectMySQL8EncodingV"
+- "12PerfectMySQL12UTF8EncodingV"
+- "12PerfectMySQL0B6SQLOptO"
+provides-member:
+- ["12PerfectMySQL19GenerateFromPointerV", ""]
+- ["12PerfectMySQL8EncodingV", ""]
+- ["12PerfectMySQL12UTF8EncodingV", ""]
+- ["12PerfectMySQL0B6SQLOptO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+="
+- !private "-="
+- "=="
+- !private ">"
+- "Array"
+- "AssignmentPrecedence"
+- !private "Bool"
+- !private "BooleanLiteralType"
+- "Encoding"
+- "FloatLiteralType"
+- "GenerateFromPointer"
+- "Int"
+- "IntegerLiteralType"
+- "IteratorProtocol"
+- "MySQLOpt"
+- "Sequence"
+- "String"
+- !private "StringLiteralType"
+- "UInt8"
+- "UTF8"
+- "UTF8Encoding"
+- "UnicodeCodec"
+- "UnsafeMutablePointer"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "utf8"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "utf8"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "utf8"]
+- !private ["s10ComparableP", "append"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["s10ComparableP", "utf8"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "append"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "utf8"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "utf8"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "utf8"]
+- !private ["12PerfectMySQL8EncodingV", "Bool"]
+- ["12PerfectMySQL8EncodingV", "IteratorProtocol"]
+- ["12PerfectMySQL8EncodingV", "String"]
+- ["12PerfectMySQL8EncodingV", "UnicodeCodec"]
+- ["12PerfectMySQL8EncodingV", "encode"]
+- ["12PerfectMySQL8EncodingV", "init"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- ["s9EquatableP", "emptyInput"]
+- ["s9EquatableP", "error"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "scalarValue"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "utf8"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s26ExpressibleByStringLiteralP", "append"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "append"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
+- ["12PerfectMySQL19GenerateFromPointerV", "Element"]
+- ["12PerfectMySQL19GenerateFromPointerV", "Int"]
+- ["12PerfectMySQL19GenerateFromPointerV", "T"]
+- ["12PerfectMySQL19GenerateFromPointerV", "UnsafeMutablePointer"]
+- ["12PerfectMySQL19GenerateFromPointerV", "count"]
+- ["12PerfectMySQL19GenerateFromPointerV", "deinit"]
+- ["12PerfectMySQL19GenerateFromPointerV", "from"]
+- ["12PerfectMySQL19GenerateFromPointerV", "init"]
+- ["12PerfectMySQL19GenerateFromPointerV", "next"]
+- ["12PerfectMySQL19GenerateFromPointerV", "pos"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "append"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "subscript"]
+- !private ["s8HashableP", "utf8"]
+- ["s16IteratorProtocolP", "Element"]
+- ["s16IteratorProtocolP", ""]
+- !private ["s16IteratorProtocolP", "count"]
+- !private ["s16IteratorProtocolP", "from"]
+- ["s16IteratorProtocolP", "next"]
+- !private ["s16IteratorProtocolP", "pos"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "append"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "utf8"]
+- !private ["s10MirrorPathP", "append"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "utf8"]
+- !private ["s17MutableCollectionP", "init"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_DEFAULT_AUTH"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_ENABLE_CLEARTEXT_PLUGIN"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_INIT_COMMAND"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_BIND"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_CAN_HANDLE_EXPIRED_PASSWORDS"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_COMPRESS"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_CONNECT_ATTR_ADD"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_CONNECT_ATTR_DELETE"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_CONNECT_ATTR_RESET"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_CONNECT_TIMEOUT"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_GUESS_CONNECTION"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_LOCAL_INFILE"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_NAMED_PIPE"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_PROTOCOL"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_READ_TIMEOUT"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_RECONNECT"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_SSL_CA"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_SSL_CAPATH"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_SSL_CERT"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_SSL_CIPHER"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_SSL_CRL"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_SSL_CRLPATH"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_SSL_KEY"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_SSL_VERIFY_SERVER_CERT"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_USE_EMBEDDED_CONNECTION"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_USE_REMOTE_CONNECTION"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_USE_RESULT"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_OPT_WRITE_TIMEOUT"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_PLUGIN_DIR"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_READ_DEFAULT_FILE"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_READ_DEFAULT_GROUP"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_REPORT_DATA_TRUNCATION"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_SECURE_AUTH"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_SERVER_PUBLIC_KEY"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_SET_CHARSET_DIR"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_SET_CHARSET_NAME"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_SET_CLIENT_IP"]
+- ["12PerfectMySQL0B6SQLOptO", "MYSQL_SHARED_MEMORY_BASE_NAME"]
+- ["12PerfectMySQL0B6SQLOptO", "__derived_enum_equals"]
+- ["12PerfectMySQL0B6SQLOptO", "deinit"]
+- ["12PerfectMySQL0B6SQLOptO", "hashValue"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So8NSCodingP", "utf8"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So9NSCopyingP", "utf8"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderReadingP", "utf8"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So21NSItemProviderWritingP", "utf8"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So16NSMutableCopyingP", "utf8"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "utf8"]
+- !private ["So16NSObjectProtocolP", "append"]
+- !private ["So16NSObjectProtocolP", "utf8"]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So14NSSecureCodingP", "utf8"]
+- !private ["So8NSStringC", "append"]
+- !private ["So8NSStringC", "utf8"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "utf8"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "makeIterator"]
+- !private ["s8SequenceP", "utf8"]
+- !private ["s10StrideableP", "subscript"]
+- !private ["SS", "append"]
+- !private ["SS", "init"]
+- !private ["SS", "utf8"]
+- !private ["s14StringProtocolP", "append"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "utf8"]
+- !private ["s16TextOutputStreamP", "append"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "utf8"]
+- !private ["s20TextOutputStreamableP", "append"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "utf8"]
+- ["s7UnicodeO4UTF8O", "CodeUnit"]
+- !private ["s7UnicodeO4UTF8O", "init"]
+- ["12PerfectMySQL12UTF8EncodingV", "Array"]
+- !private ["12PerfectMySQL12UTF8EncodingV", "Encoding"]
+- ["12PerfectMySQL12UTF8EncodingV", "IteratorProtocol"]
+- ["12PerfectMySQL12UTF8EncodingV", "Sequence"]
+- ["12PerfectMySQL12UTF8EncodingV", "String"]
+- ["12PerfectMySQL12UTF8EncodingV", "UInt8"]
+- ["12PerfectMySQL12UTF8EncodingV", "UTF8"]
+- ["12PerfectMySQL12UTF8EncodingV", "decode"]
+- ["12PerfectMySQL12UTF8EncodingV", "encode"]
+- ["12PerfectMySQL12UTF8EncodingV", "init"]
+- ["s12UnicodeCodecP", "CodeUnit"]
+- !private ["s12UnicodeCodecP", "decode"]
+- !private ["s12UnicodeCodecP", "init"]
+- ["s21UnicodeDecodingResultO", "emptyInput"]
+- ["s21UnicodeDecodingResultO", "error"]
+- ["s21UnicodeDecodingResultO", "scalarValue"]
+- !private ["Sp", "subscript"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "append"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "append"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "utf8"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "append"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
+- !private ["s33_ExpressibleByStringInterpolationP", "append"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "utf8"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "utf8"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s16_SwiftStringViewP", "append"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "utf8"]
+- ["s16_UnicodeEncodingP", "CodeUnit"]
+- !private ["s16_UnicodeEncodingP", "decode"]
+- !private ["s16_UnicodeEncodingP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "12PerfectMySQL8EncodingV"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "12PerfectMySQL19GenerateFromPointerV"
+- "s8HashableP"
+- "s16IteratorProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "12PerfectMySQL0B6SQLOptO"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "s7UnicodeO4UTF8O"
+- "12PerfectMySQL12UTF8EncodingV"
+- "s12UnicodeCodecP"
+- "s21UnicodeDecodingResultO"
+- !private "Sp"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+- "s16_UnicodeEncodingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/caochengfei/Desktop/swiftServiceTest/.build/x86_64-apple-macosx10.10/debug/PerfectCRUD.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/typelib.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/my_alloc.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/my_command.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql_time.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/psi/psi_base.h"
+- "/usr/local/include/mysql/mysql.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql_com.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/client_plugin.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql_version.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/plugin_auth_common.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/binary_log_types.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/my_list.h"
+- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/psi/psi_memory.h"
+- "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "6761778d128a5944f4258735704d847d"

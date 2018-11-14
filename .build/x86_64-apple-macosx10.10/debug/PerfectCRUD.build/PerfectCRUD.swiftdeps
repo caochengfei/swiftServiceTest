@@ -1,0 +1,909 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Expression"
+- "Bindings"
+- "QueryItem"
+- "TableProtocol"
+- "FromTableProtocol"
+- "CommandProtocol"
+- "SelectProtocol"
+- "SQLGenDelegate"
+- "SQLExeDelegate"
+- "DatabaseConfigurationProtocol"
+- "DatabaseProtocol"
+- "TableNameProvider"
+- "Joinable"
+- "Selectable"
+- "Whereable"
+- "Orderable"
+- "Limitable"
+- "PivotContainer"
+- "SQLTopExeDelegate"
+- "SQLGenState"
+provides-nominal:
+- "11PerfectCRUD9QueryItemP"
+- "11PerfectCRUD13TableProtocolP"
+- "11PerfectCRUD17FromTableProtocolP"
+- "11PerfectCRUD15CommandProtocolP"
+- "11PerfectCRUD14SelectProtocolP"
+- "11PerfectCRUD14SQLGenDelegateP"
+- "11PerfectCRUD14SQLExeDelegateP"
+- "11PerfectCRUD29DatabaseConfigurationProtocolP"
+- "11PerfectCRUD16DatabaseProtocolP"
+- "11PerfectCRUD17TableNameProviderP"
+- "11PerfectCRUD8JoinableP"
+- "11PerfectCRUD10SelectableP"
+- "11PerfectCRUD9WhereableP"
+- "11PerfectCRUD9OrderableP"
+- "11PerfectCRUD9LimitableP"
+- "11PerfectCRUD14PivotContainerV"
+- "11PerfectCRUD17SQLTopExeDelegateV"
+- "11PerfectCRUD11SQLGenStateV"
+- "11PerfectCRUD11SQLGenStateV7CommandO"
+- "11PerfectCRUD11SQLGenStateV9TableDataV"
+- "11PerfectCRUD11SQLGenStateV16PropertyJoinDataV"
+- "11PerfectCRUD11SQLGenStateV9StatementV"
+- "11PerfectCRUD11SQLGenStateV11MyTableDataV"
+provides-member:
+- ["11PerfectCRUD9QueryItemP", ""]
+- ["11PerfectCRUD13TableProtocolP", ""]
+- ["11PerfectCRUD17FromTableProtocolP", ""]
+- ["11PerfectCRUD15CommandProtocolP", ""]
+- ["11PerfectCRUD14SelectProtocolP", ""]
+- ["11PerfectCRUD14SQLGenDelegateP", ""]
+- ["11PerfectCRUD14SQLExeDelegateP", ""]
+- ["11PerfectCRUD29DatabaseConfigurationProtocolP", ""]
+- ["11PerfectCRUD16DatabaseProtocolP", ""]
+- ["11PerfectCRUD17TableNameProviderP", ""]
+- ["11PerfectCRUD8JoinableP", ""]
+- ["11PerfectCRUD10SelectableP", ""]
+- ["11PerfectCRUD9WhereableP", ""]
+- ["11PerfectCRUD9OrderableP", ""]
+- ["11PerfectCRUD9LimitableP", ""]
+- ["s9DecodableP", ""]
+- ["11PerfectCRUD14PivotContainerV", ""]
+- ["11PerfectCRUD17SQLTopExeDelegateV", ""]
+- ["11PerfectCRUD11SQLGenStateV", ""]
+- ["11PerfectCRUD11SQLGenStateV7CommandO", ""]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", ""]
+- ["11PerfectCRUD11SQLGenStateV16PropertyJoinDataV", ""]
+- ["11PerfectCRUD11SQLGenStateV9StatementV", ""]
+- ["11PerfectCRUD11SQLGenStateV11MyTableDataV", ""]
+- ["10Foundation4DateV", ""]
+- ["11PerfectCRUD8JoinableP", "join"]
+- ["11PerfectCRUD8JoinableP", "join"]
+- ["11PerfectCRUD10SelectableP", "select"]
+- ["11PerfectCRUD10SelectableP", "count"]
+- ["11PerfectCRUD10SelectableP", "first"]
+- ["11PerfectCRUD10SelectableP", "first"]
+- ["11PerfectCRUD9WhereableP", "where"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- ["11PerfectCRUD9LimitableP", "limit"]
+- ["11PerfectCRUD17FromTableProtocolP", "databaseConfiguration"]
+- ["11PerfectCRUD15CommandProtocolP", "setState"]
+- ["11PerfectCRUD15CommandProtocolP", "setSQL"]
+- ["11PerfectCRUD14SQLExeDelegateP", "bind"]
+- ["s9DecodableP", "CRUDTableName"]
+- ["10Foundation4DateV", "iso8601"]
+- ["10Foundation4DateV", "init"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- !private "+="
+- !private "..."
+- !private "..<"
+- "=="
+- "AnyKeyPath"
+- "Array"
+- "AssignmentPrecedence"
+- "Bindings"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CRUDBindingsEncoder"
+- "CRUDBooleanExpression"
+- "CRUDExpression"
+- "CRUDKeyPathsDecoder"
+- !private "CRUDPivotRowDecoder"
+- !private "CRUDRowDecoder"
+- !private "CRUDSQLExeError"
+- !private "CRUDSQLGenError"
+- "CastingPrecedence"
+- "Codable"
+- "CodingKey"
+- !private "ColumnKey"
+- "CommandProtocol"
+- "DatabaseConfigurationProtocol"
+- "DatabaseProtocol"
+- "Date"
+- !private "DateFormatter"
+- "Decodable"
+- !private "Dictionary"
+- "Equatable"
+- "Expression"
+- "FloatLiteralType"
+- "FromTableProtocol"
+- "Int"
+- "IntegerLiteralType"
+- "Join"
+- "JoinPivot"
+- "Joinable"
+- "KeyPath"
+- "KeyedDecodingContainer"
+- "Limit"
+- "Limitable"
+- !private "Locale"
+- "Orderable"
+- "Ordering"
+- "PartialKeyPath"
+- "PivotContainer"
+- "QueryItem"
+- "SQLExeDelegate"
+- "SQLGenDelegate"
+- "SQLGenState"
+- "SQLTopExeDelegate"
+- !private "SQLTopRowReader"
+- "Select"
+- "SelectProtocol"
+- "Selectable"
+- "Sequence"
+- "String"
+- !private "StringLiteralType"
+- "Table"
+- "TableCreatePolicy"
+- "TableNameProvider"
+- "TableProtocol"
+- "TableStructure"
+- "TernaryPrecedence"
+- !private "TimeZone"
+- !private "UnicodeScalarType"
+- "Where"
+- "Whereable"
+- !private "type"
+- !private "zip"
+depends-member:
+- !private ["s10AnyKeyPathC", "valueType"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "map"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["11PerfectCRUD21CRUDBooleanExpressionP", "crudExpression"]
+- !private ["11PerfectCRUD19CRUDKeyPathsDecoderC", "deinit"]
+- !private ["11PerfectCRUD19CRUDKeyPathsDecoderC", "getKeyPathName"]
+- !private ["11PerfectCRUD19CRUDKeyPathsDecoderC", "init"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "deinit"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "init"]
+- !private ["11PerfectCRUD19CRUDPivotRowDecoderC", "orderedKeys"]
+- !private ["11PerfectCRUD14CRUDRowDecoderC", "deinit"]
+- !private ["11PerfectCRUD14CRUDRowDecoderC", "init"]
+- !private ["11PerfectCRUD15CRUDSQLExeErrorV", "deinit"]
+- !private ["11PerfectCRUD15CRUDSQLExeErrorV", "init"]
+- !private ["11PerfectCRUD15CRUDSQLGenErrorV", "deinit"]
+- !private ["11PerfectCRUD15CRUDSQLGenErrorV", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "timeZone"]
+- !private ["s9CodingKeyP", "init"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "subscript"]
+- ["11PerfectCRUD9ColumnKeyV", "deinit"]
+- !private ["11PerfectCRUD9ColumnKeyV", "init"]
+- ["11PerfectCRUD11SQLGenStateV7CommandO", "__derived_enum_equals"]
+- ["11PerfectCRUD11SQLGenStateV7CommandO", "count"]
+- ["11PerfectCRUD11SQLGenStateV7CommandO", "deinit"]
+- ["11PerfectCRUD11SQLGenStateV7CommandO", "delete"]
+- ["11PerfectCRUD11SQLGenStateV7CommandO", "hashValue"]
+- ["11PerfectCRUD11SQLGenStateV7CommandO", "insert"]
+- ["11PerfectCRUD11SQLGenStateV7CommandO", "select"]
+- ["11PerfectCRUD11SQLGenStateV7CommandO", "unknown"]
+- ["11PerfectCRUD11SQLGenStateV7CommandO", "update"]
+- ["11PerfectCRUD15CommandProtocolP", "FromTableType"]
+- ["11PerfectCRUD15CommandProtocolP", "SQLGenState"]
+- ["11PerfectCRUD15CommandProtocolP", ""]
+- !private ["11PerfectCRUD15CommandProtocolP", "init"]
+- !private ["11PerfectCRUD15CommandProtocolP", "makeIterator"]
+- ["11PerfectCRUD15CommandProtocolP", "setSQL"]
+- ["11PerfectCRUD15CommandProtocolP", "setState"]
+- ["11PerfectCRUD15CommandProtocolP", "sqlGenState"]
+- !private ["s10ComparableP", "DateFormatter"]
+- !private ["s10ComparableP", "Locale"]
+- !private ["s10ComparableP", "TimeZone"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DateFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "Locale"]
+- !private ["s28CustomDebugStringConvertibleP", "TimeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s29CustomPlaygroundQuickLookableP", "DateFormatter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Locale"]
+- !private ["s29CustomPlaygroundQuickLookableP", "TimeZone"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "DateFormatter"]
+- !private ["s17CustomReflectableP", "Locale"]
+- !private ["s17CustomReflectableP", "TimeZone"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "DateFormatter"]
+- !private ["s23CustomStringConvertibleP", "Locale"]
+- !private ["s23CustomStringConvertibleP", "TimeZone"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- !private ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeZone"]
+- ["11PerfectCRUD29DatabaseConfigurationProtocolP", "Int"]
+- ["11PerfectCRUD29DatabaseConfigurationProtocolP", "SQLExeDelegate"]
+- ["11PerfectCRUD29DatabaseConfigurationProtocolP", "SQLGenDelegate"]
+- ["11PerfectCRUD29DatabaseConfigurationProtocolP", "String"]
+- ["11PerfectCRUD29DatabaseConfigurationProtocolP", "init"]
+- ["11PerfectCRUD29DatabaseConfigurationProtocolP", "sqlExeDelegate"]
+- ["11PerfectCRUD29DatabaseConfigurationProtocolP", "sqlGenDelegate"]
+- ["11PerfectCRUD16DatabaseProtocolP", "Codable"]
+- ["11PerfectCRUD16DatabaseProtocolP", "Configuration"]
+- ["11PerfectCRUD16DatabaseProtocolP", "DatabaseConfigurationProtocol"]
+- ["11PerfectCRUD16DatabaseProtocolP", "Self"]
+- ["11PerfectCRUD16DatabaseProtocolP", "Table"]
+- ["11PerfectCRUD16DatabaseProtocolP", "configuration"]
+- ["11PerfectCRUD16DatabaseProtocolP", "table"]
+- !private ["10Foundation4DateV", "DateFormatter"]
+- !private ["10Foundation4DateV", "Locale"]
+- ["10Foundation4DateV", "String"]
+- !private ["10Foundation4DateV", "TimeZone"]
+- ["10Foundation4DateV", "init"]
+- ["10Foundation4DateV", "iso8601"]
+- !private ["So13DateFormatterC", "date"]
+- !private ["So13DateFormatterC", "dateFormat"]
+- !private ["So13DateFormatterC", "init"]
+- !private ["So13DateFormatterC", "locale"]
+- !private ["So13DateFormatterC", "string"]
+- !private ["So13DateFormatterC", "timeZone"]
+- ["s9DecodableP", "CRUDTableName"]
+- !private ["s9DecodableP", "DateFormatter"]
+- !private ["s9DecodableP", "Locale"]
+- !private ["s9DecodableP", "Self"]
+- ["s9DecodableP", "String"]
+- !private ["s9DecodableP", "TableNameProvider"]
+- !private ["s9DecodableP", "TimeZone"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "current"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s7DecoderP", "getKeyPathName"]
+- !private ["s7DecoderP", "init"]
+- !private ["s7DecoderP", "orderedKeys"]
+- !private ["s10DictionaryV", "init"]
+- !private ["s9EncodableP", "CRUDTableName"]
+- !private ["s9EncodableP", "DateFormatter"]
+- !private ["s9EncodableP", "Locale"]
+- !private ["s9EncodableP", "TimeZone"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "current"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "DateFormatter"]
+- !private ["s9EquatableP", "Locale"]
+- !private ["s9EquatableP", "TimeZone"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "current"]
+- !private ["s9EquatableP", "date"]
+- !private ["s9EquatableP", "dateFormat"]
+- !private ["s9EquatableP", "first"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "locale"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "timeZone"]
+- ["s9EquatableP", "unknown"]
+- !private ["s9EquatableP", "valueType"]
+- !private ["s5ErrorP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So9FormatterC", "date"]
+- !private ["So9FormatterC", "dateFormat"]
+- !private ["So9FormatterC", "init"]
+- !private ["So9FormatterC", "locale"]
+- !private ["So9FormatterC", "string"]
+- !private ["So9FormatterC", "timeZone"]
+- ["11PerfectCRUD17FromTableProtocolP", "DatabaseConfigurationProtocol"]
+- ["11PerfectCRUD17FromTableProtocolP", "FromTableType"]
+- ["11PerfectCRUD17FromTableProtocolP", "TableProtocol"]
+- ["11PerfectCRUD17FromTableProtocolP", ""]
+- ["11PerfectCRUD17FromTableProtocolP", "databaseConfiguration"]
+- ["11PerfectCRUD17FromTableProtocolP", "fromTable"]
+- !private ["11PerfectCRUD17FromTableProtocolP", "init"]
+- !private ["11PerfectCRUD17FromTableProtocolP", "makeIterator"]
+- !private ["11PerfectCRUD17FromTableProtocolP", "select"]
+- !private ["s8HashableP", "DateFormatter"]
+- !private ["s8HashableP", "Locale"]
+- !private ["s8HashableP", "TimeZone"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "count"]
+- !private ["s8HashableP", "current"]
+- !private ["s8HashableP", "date"]
+- !private ["s8HashableP", "dateFormat"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "locale"]
+- !private ["s8HashableP", "string"]
+- !private ["s8HashableP", "timeZone"]
+- ["s8HashableP", "unknown"]
+- !private ["s8HashableP", "valueType"]
+- !private ["s16IteratorProtocolP", "nextElement"]
+- !private ["11PerfectCRUD4JoinV", "init"]
+- !private ["11PerfectCRUD9JoinPivotV", "init"]
+- ["11PerfectCRUD8JoinableP", "Codable"]
+- ["11PerfectCRUD8JoinableP", "Equatable"]
+- ["11PerfectCRUD8JoinableP", "Join"]
+- ["11PerfectCRUD8JoinableP", "JoinPivot"]
+- ["11PerfectCRUD8JoinableP", "KeyPath"]
+- ["11PerfectCRUD8JoinableP", "OverAllForm"]
+- ["11PerfectCRUD8JoinableP", "Self"]
+- !private ["11PerfectCRUD8JoinableP", "init"]
+- ["11PerfectCRUD8JoinableP", "join"]
+- !private ["11PerfectCRUD8JoinableP", "select"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "init"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "init"]
+- !private ["11PerfectCRUD5LimitV", "deinit"]
+- !private ["11PerfectCRUD5LimitV", "init"]
+- !private ["11PerfectCRUD5LimitV", "select"]
+- ["11PerfectCRUD9LimitableP", "Int"]
+- ["11PerfectCRUD9LimitableP", "Limit"]
+- ["11PerfectCRUD9LimitableP", "OverAllForm"]
+- ["11PerfectCRUD9LimitableP", "Self"]
+- !private ["11PerfectCRUD9LimitableP", "init"]
+- ["11PerfectCRUD9LimitableP", "limit"]
+- !private ["10Foundation6LocaleV", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["11PerfectCRUD11SQLGenStateV11MyTableDataV", "TableData"]
+- ["11PerfectCRUD11SQLGenStateV11MyTableDataV", "firstTable"]
+- ["11PerfectCRUD11SQLGenStateV11MyTableDataV", "init"]
+- ["11PerfectCRUD11SQLGenStateV11MyTableDataV", "myTable"]
+- ["11PerfectCRUD11SQLGenStateV11MyTableDataV", "remainingTables"]
+- !private ["So8NSCodingP", "date"]
+- !private ["So8NSCodingP", "dateFormat"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So8NSCodingP", "timeZone"]
+- !private ["So9NSCopyingP", "date"]
+- !private ["So9NSCopyingP", "dateFormat"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "timeZone"]
+- !private ["So8NSObjectC", "date"]
+- !private ["So8NSObjectC", "dateFormat"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "timeZone"]
+- !private ["So16NSObjectProtocolP", "date"]
+- !private ["So16NSObjectProtocolP", "dateFormat"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "locale"]
+- !private ["So16NSObjectProtocolP", "string"]
+- !private ["So16NSObjectProtocolP", "timeZone"]
+- ["11PerfectCRUD9OrderableP", "Equatable"]
+- ["11PerfectCRUD9OrderableP", "Form"]
+- ["11PerfectCRUD9OrderableP", "KeyPath"]
+- ["11PerfectCRUD9OrderableP", "Ordering"]
+- ["11PerfectCRUD9OrderableP", "OverAllForm"]
+- ["11PerfectCRUD9OrderableP", "PartialKeyPath"]
+- ["11PerfectCRUD9OrderableP", "Self"]
+- !private ["11PerfectCRUD9OrderableP", "init"]
+- ["11PerfectCRUD9OrderableP", "order"]
+- !private ["11PerfectCRUD9OrderableP", "select"]
+- !private ["11PerfectCRUD8OrderingV", "init"]
+- ["11PerfectCRUD14PivotContainerV", "Codable"]
+- ["11PerfectCRUD14PivotContainerV", "init"]
+- ["11PerfectCRUD14PivotContainerV", "instance"]
+- ["11PerfectCRUD14PivotContainerV", "keys"]
+- ["11PerfectCRUD11SQLGenStateV16PropertyJoinDataV", "AnyKeyPath"]
+- ["11PerfectCRUD11SQLGenStateV16PropertyJoinDataV", "Codable"]
+- ["11PerfectCRUD11SQLGenStateV16PropertyJoinDataV", "equals"]
+- ["11PerfectCRUD11SQLGenStateV16PropertyJoinDataV", "init"]
+- ["11PerfectCRUD11SQLGenStateV16PropertyJoinDataV", "on"]
+- ["11PerfectCRUD11SQLGenStateV16PropertyJoinDataV", "pivot"]
+- ["11PerfectCRUD11SQLGenStateV16PropertyJoinDataV", "to"]
+- ["11PerfectCRUD9QueryItemP", "CRUDBooleanExpression"]
+- !private ["11PerfectCRUD9QueryItemP", "CRUDSQLGenError"]
+- ["11PerfectCRUD9QueryItemP", "Codable"]
+- !private ["11PerfectCRUD9QueryItemP", "ColumnKey"]
+- ["11PerfectCRUD9QueryItemP", "DatabaseConfigurationProtocol"]
+- ["11PerfectCRUD9QueryItemP", "Equatable"]
+- ["11PerfectCRUD9QueryItemP", "Form"]
+- ["11PerfectCRUD9QueryItemP", "FromTableType"]
+- ["11PerfectCRUD9QueryItemP", "Int"]
+- ["11PerfectCRUD9QueryItemP", "Join"]
+- ["11PerfectCRUD9QueryItemP", "JoinPivot"]
+- ["11PerfectCRUD9QueryItemP", "KeyPath"]
+- !private ["11PerfectCRUD9QueryItemP", "KeyedDecodingContainer"]
+- ["11PerfectCRUD9QueryItemP", "Limit"]
+- ["11PerfectCRUD9QueryItemP", "Limitable"]
+- ["11PerfectCRUD9QueryItemP", "Ordering"]
+- ["11PerfectCRUD9QueryItemP", "OverAllForm"]
+- ["11PerfectCRUD9QueryItemP", "PartialKeyPath"]
+- ["11PerfectCRUD9QueryItemP", "SQLGenState"]
+- ["11PerfectCRUD9QueryItemP", "Select"]
+- ["11PerfectCRUD9QueryItemP", "Self"]
+- ["11PerfectCRUD9QueryItemP", "Where"]
+- ["11PerfectCRUD9QueryItemP", ""]
+- !private ["11PerfectCRUD9QueryItemP", "databaseConfiguration"]
+- !private ["11PerfectCRUD9QueryItemP", "init"]
+- !private ["11PerfectCRUD9QueryItemP", "limit"]
+- !private ["11PerfectCRUD9QueryItemP", "makeIterator"]
+- !private ["11PerfectCRUD9QueryItemP", "select"]
+- ["11PerfectCRUD9QueryItemP", "setSQL"]
+- ["11PerfectCRUD9QueryItemP", "setState"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "DateFormatter"]
+- !private ["10Foundation20ReferenceConvertibleP", "Locale"]
+- !private ["10Foundation20ReferenceConvertibleP", "TimeZone"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["11PerfectCRUD14SQLExeDelegateP", "Bindings"]
+- ["11PerfectCRUD14SQLExeDelegateP", "Bool"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "CRUDPivotRowDecoder"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "CRUDRowDecoder"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "CRUDSQLExeError"]
+- ["11PerfectCRUD14SQLExeDelegateP", "CodingKey"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "Dictionary"]
+- ["11PerfectCRUD14SQLExeDelegateP", "Int"]
+- ["11PerfectCRUD14SQLExeDelegateP", "KeyedDecodingContainer"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "PivotContainer"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "SQLTopRowReader"]
+- ["11PerfectCRUD14SQLExeDelegateP", ""]
+- ["11PerfectCRUD14SQLExeDelegateP", "bind"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "genState"]
+- ["11PerfectCRUD14SQLExeDelegateP", "hasNext"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "master"]
+- ["11PerfectCRUD14SQLExeDelegateP", "next"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "subObjects"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "type"]
+- !private ["11PerfectCRUD14SQLExeDelegateP", "zip"]
+- ["11PerfectCRUD14SQLGenDelegateP", "Bindings"]
+- ["11PerfectCRUD14SQLGenDelegateP", "Bool"]
+- ["11PerfectCRUD14SQLGenDelegateP", "Expression"]
+- ["11PerfectCRUD14SQLGenDelegateP", "String"]
+- ["11PerfectCRUD14SQLGenDelegateP", "TableCreatePolicy"]
+- ["11PerfectCRUD14SQLGenDelegateP", "TableStructure"]
+- ["11PerfectCRUD14SQLGenDelegateP", "bindings"]
+- ["11PerfectCRUD14SQLGenDelegateP", "getBinding"]
+- ["11PerfectCRUD14SQLGenDelegateP", "getCreateIndexSQL"]
+- ["11PerfectCRUD14SQLGenDelegateP", "getCreateTableSQL"]
+- ["11PerfectCRUD14SQLGenDelegateP", "quote"]
+- ["11PerfectCRUD11SQLGenStateV", "AnyKeyPath"]
+- !private ["11PerfectCRUD11SQLGenStateV", "Array"]
+- ["11PerfectCRUD11SQLGenStateV", "Bindings"]
+- ["11PerfectCRUD11SQLGenStateV", "Bool"]
+- ["11PerfectCRUD11SQLGenStateV", "CRUDBindingsEncoder"]
+- ["11PerfectCRUD11SQLGenStateV", "CRUDKeyPathsDecoder"]
+- ["11PerfectCRUD11SQLGenStateV", "Codable"]
+- ["11PerfectCRUD11SQLGenStateV", "Command"]
+- ["11PerfectCRUD11SQLGenStateV", "Expression"]
+- ["11PerfectCRUD11SQLGenStateV", "Int"]
+- ["11PerfectCRUD11SQLGenStateV", "MyTableData"]
+- ["11PerfectCRUD11SQLGenStateV", "Ordering"]
+- ["11PerfectCRUD11SQLGenStateV", "PartialKeyPath"]
+- ["11PerfectCRUD11SQLGenStateV", "PropertyJoinData"]
+- ["11PerfectCRUD11SQLGenStateV", "SQLGenDelegate"]
+- ["11PerfectCRUD11SQLGenStateV", "Statement"]
+- ["11PerfectCRUD11SQLGenStateV", "String"]
+- ["11PerfectCRUD11SQLGenStateV", "TableData"]
+- ["11PerfectCRUD11SQLGenStateV", "accumulatedOrderings"]
+- ["11PerfectCRUD11SQLGenStateV", "addTable"]
+- ["11PerfectCRUD11SQLGenStateV", "aliasCounter"]
+- ["11PerfectCRUD11SQLGenStateV", "bindingsEncoder"]
+- ["11PerfectCRUD11SQLGenStateV", "columnFilters"]
+- ["11PerfectCRUD11SQLGenStateV", "command"]
+- ["11PerfectCRUD11SQLGenStateV", "consumeState"]
+- ["11PerfectCRUD11SQLGenStateV", "currentLimit"]
+- ["11PerfectCRUD11SQLGenStateV", "delegate"]
+- ["11PerfectCRUD11SQLGenStateV", "getAlias"]
+- ["11PerfectCRUD11SQLGenStateV", "getKeyName"]
+- ["11PerfectCRUD11SQLGenStateV", "getTableData"]
+- ["11PerfectCRUD11SQLGenStateV", "getTableName"]
+- ["11PerfectCRUD11SQLGenStateV", "init"]
+- ["11PerfectCRUD11SQLGenStateV", "nextAlias"]
+- ["11PerfectCRUD11SQLGenStateV", "popTableData"]
+- ["11PerfectCRUD11SQLGenStateV", "statements"]
+- ["11PerfectCRUD11SQLGenStateV", "tableData"]
+- ["11PerfectCRUD11SQLGenStateV", "tablePopCount"]
+- ["11PerfectCRUD11SQLGenStateV", "whereExpr"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "AnyKeyPath"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "Bindings"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "Bool"]
+- !private ["11PerfectCRUD17SQLTopExeDelegateV", "CRUDPivotRowDecoder"]
+- !private ["11PerfectCRUD17SQLTopExeDelegateV", "CRUDRowDecoder"]
+- !private ["11PerfectCRUD17SQLTopExeDelegateV", "CRUDSQLExeError"]
+- !private ["11PerfectCRUD17SQLTopExeDelegateV", "Codable"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "CodingKey"]
+- !private ["11PerfectCRUD17SQLTopExeDelegateV", "ColumnKey"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "DatabaseConfigurationProtocol"]
+- !private ["11PerfectCRUD17SQLTopExeDelegateV", "Dictionary"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "Int"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "KeyedDecodingContainer"]
+- !private ["11PerfectCRUD17SQLTopExeDelegateV", "PivotContainer"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "SQLExeDelegate"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "SQLGenState"]
+- !private ["11PerfectCRUD17SQLTopExeDelegateV", "SQLTopRowReader"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "String"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "bind"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "deinit"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "genState"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "hasNext"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "init"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "master"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "next"]
+- ["11PerfectCRUD17SQLTopExeDelegateV", "subObjects"]
+- !private ["11PerfectCRUD17SQLTopExeDelegateV", "type"]
+- !private ["11PerfectCRUD17SQLTopExeDelegateV", "zip"]
+- !private ["11PerfectCRUD15SQLTopRowReaderC", "deinit"]
+- !private ["11PerfectCRUD15SQLTopRowReaderC", "init"]
+- !private ["11PerfectCRUD6SelectV", "deinit"]
+- !private ["11PerfectCRUD6SelectV", "init"]
+- !private ["11PerfectCRUD6SelectV", "makeIterator"]
+- !private ["11PerfectCRUD14SelectIteratorV", "nextElement"]
+- ["11PerfectCRUD14SelectProtocolP", "FromTableType"]
+- ["11PerfectCRUD14SelectProtocolP", "fromTable"]
+- !private ["11PerfectCRUD14SelectProtocolP", "init"]
+- !private ["11PerfectCRUD14SelectProtocolP", "makeIterator"]
+- !private ["11PerfectCRUD10SelectableP", "CRUDSQLGenError"]
+- !private ["11PerfectCRUD10SelectableP", "ColumnKey"]
+- ["11PerfectCRUD10SelectableP", "Int"]
+- !private ["11PerfectCRUD10SelectableP", "KeyedDecodingContainer"]
+- ["11PerfectCRUD10SelectableP", "Limitable"]
+- ["11PerfectCRUD10SelectableP", "OverAllForm"]
+- !private ["11PerfectCRUD10SelectableP", "SQLGenState"]
+- ["11PerfectCRUD10SelectableP", "Select"]
+- ["11PerfectCRUD10SelectableP", "Self"]
+- ["11PerfectCRUD10SelectableP", "count"]
+- !private ["11PerfectCRUD10SelectableP", "databaseConfiguration"]
+- ["11PerfectCRUD10SelectableP", "first"]
+- !private ["11PerfectCRUD10SelectableP", "init"]
+- !private ["11PerfectCRUD10SelectableP", "limit"]
+- ["11PerfectCRUD10SelectableP", "select"]
+- !private ["11PerfectCRUD10SelectableP", "setSQL"]
+- !private ["11PerfectCRUD10SelectableP", "setState"]
+- ["s8SequenceP", "FromTableType"]
+- ["s8SequenceP", ""]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "makeIterator"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "subscript"]
+- ["11PerfectCRUD11SQLGenStateV9StatementV", "Bindings"]
+- ["11PerfectCRUD11SQLGenStateV9StatementV", "String"]
+- ["11PerfectCRUD11SQLGenStateV9StatementV", "bindings"]
+- ["11PerfectCRUD11SQLGenStateV9StatementV", "init"]
+- ["11PerfectCRUD11SQLGenStateV9StatementV", "sql"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", "CRUDKeyPathsDecoder"]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", "Codable"]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", "PropertyJoinData"]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", "String"]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", "alias"]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", "init"]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", "joinData"]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", "keyPathDecoder"]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", "modelInstance"]
+- ["11PerfectCRUD11SQLGenStateV9TableDataV", "type"]
+- ["11PerfectCRUD17TableNameProviderP", "String"]
+- ["11PerfectCRUD17TableNameProviderP", "tableName"]
+- ["11PerfectCRUD13TableProtocolP", "CRUDBooleanExpression"]
+- !private ["11PerfectCRUD13TableProtocolP", "CRUDSQLGenError"]
+- ["11PerfectCRUD13TableProtocolP", "Codable"]
+- !private ["11PerfectCRUD13TableProtocolP", "ColumnKey"]
+- ["11PerfectCRUD13TableProtocolP", "DatabaseConfigurationProtocol"]
+- ["11PerfectCRUD13TableProtocolP", "Equatable"]
+- ["11PerfectCRUD13TableProtocolP", "Form"]
+- ["11PerfectCRUD13TableProtocolP", "Int"]
+- ["11PerfectCRUD13TableProtocolP", "Join"]
+- ["11PerfectCRUD13TableProtocolP", "JoinPivot"]
+- ["11PerfectCRUD13TableProtocolP", "KeyPath"]
+- !private ["11PerfectCRUD13TableProtocolP", "KeyedDecodingContainer"]
+- ["11PerfectCRUD13TableProtocolP", "Limit"]
+- ["11PerfectCRUD13TableProtocolP", "Limitable"]
+- ["11PerfectCRUD13TableProtocolP", "Ordering"]
+- ["11PerfectCRUD13TableProtocolP", "OverAllForm"]
+- ["11PerfectCRUD13TableProtocolP", "PartialKeyPath"]
+- !private ["11PerfectCRUD13TableProtocolP", "SQLGenState"]
+- ["11PerfectCRUD13TableProtocolP", "Select"]
+- ["11PerfectCRUD13TableProtocolP", "Self"]
+- ["11PerfectCRUD13TableProtocolP", "Where"]
+- ["11PerfectCRUD13TableProtocolP", ""]
+- ["11PerfectCRUD13TableProtocolP", "databaseConfiguration"]
+- !private ["11PerfectCRUD13TableProtocolP", "init"]
+- !private ["11PerfectCRUD13TableProtocolP", "limit"]
+- !private ["11PerfectCRUD13TableProtocolP", "select"]
+- !private ["11PerfectCRUD13TableProtocolP", "setSQL"]
+- !private ["11PerfectCRUD13TableProtocolP", "setState"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation8TimeZoneV", "current"]
+- !private ["10Foundation8TimeZoneV", "init"]
+- !private ["11PerfectCRUD5WhereV", "init"]
+- ["11PerfectCRUD9WhereableP", "CRUDBooleanExpression"]
+- ["11PerfectCRUD9WhereableP", "OverAllForm"]
+- ["11PerfectCRUD9WhereableP", "Self"]
+- ["11PerfectCRUD9WhereableP", "Where"]
+- !private ["11PerfectCRUD9WhereableP", "init"]
+- !private ["11PerfectCRUD9WhereableP", "select"]
+- ["11PerfectCRUD9WhereableP", "where"]
+- !private ["s12Zip2SequenceV", "map"]
+- !private ["s14_AppendKeyPathP", "valueType"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "DateFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", "Locale"]
+- !private ["s21_ObjectiveCBridgeableP", "TimeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s10AnyKeyPathC"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "11PerfectCRUD21CRUDBooleanExpressionP"
+- !private "11PerfectCRUD19CRUDKeyPathsDecoderC"
+- !private "11PerfectCRUD19CRUDPivotRowDecoderC"
+- !private "11PerfectCRUD14CRUDRowDecoderC"
+- !private "11PerfectCRUD15CRUDSQLExeErrorV"
+- !private "11PerfectCRUD15CRUDSQLGenErrorV"
+- !private "s7CVarArgP"
+- !private "s9CodingKeyP"
+- !private "s10CollectionP"
+- "11PerfectCRUD9ColumnKeyV"
+- "11PerfectCRUD11SQLGenStateV7CommandO"
+- "11PerfectCRUD15CommandProtocolP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "11PerfectCRUD29DatabaseConfigurationProtocolP"
+- "11PerfectCRUD16DatabaseProtocolP"
+- "10Foundation4DateV"
+- !private "So13DateFormatterC"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So9FormatterC"
+- "11PerfectCRUD17FromTableProtocolP"
+- "s8HashableP"
+- !private "s16IteratorProtocolP"
+- !private "11PerfectCRUD4JoinV"
+- !private "11PerfectCRUD9JoinPivotV"
+- "11PerfectCRUD8JoinableP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "11PerfectCRUD5LimitV"
+- "11PerfectCRUD9LimitableP"
+- !private "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "11PerfectCRUD11SQLGenStateV11MyTableDataV"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- "11PerfectCRUD9OrderableP"
+- !private "11PerfectCRUD8OrderingV"
+- "11PerfectCRUD14PivotContainerV"
+- "11PerfectCRUD11SQLGenStateV16PropertyJoinDataV"
+- "11PerfectCRUD9QueryItemP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- "11PerfectCRUD14SQLExeDelegateP"
+- "11PerfectCRUD14SQLGenDelegateP"
+- "11PerfectCRUD11SQLGenStateV"
+- "11PerfectCRUD17SQLTopExeDelegateV"
+- !private "11PerfectCRUD15SQLTopRowReaderC"
+- !private "11PerfectCRUD6SelectV"
+- !private "11PerfectCRUD14SelectIteratorV"
+- "11PerfectCRUD14SelectProtocolP"
+- "11PerfectCRUD10SelectableP"
+- "s8SequenceP"
+- "11PerfectCRUD11SQLGenStateV9StatementV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "11PerfectCRUD11SQLGenStateV9TableDataV"
+- "11PerfectCRUD17TableNameProviderP"
+- "11PerfectCRUD13TableProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation8TimeZoneV"
+- !private "11PerfectCRUD5WhereV"
+- "11PerfectCRUD9WhereableP"
+- !private "s12Zip2SequenceV"
+- !private "s14_AppendKeyPathP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a771a09cef5105a4272cae4b3acd092c"

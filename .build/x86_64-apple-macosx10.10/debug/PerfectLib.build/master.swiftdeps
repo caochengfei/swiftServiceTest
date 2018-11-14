@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "54c9f989d08e284672cedbf1ef3e19b6"
+build_time: [1526476899, 9286000]
+inputs:
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Bytes.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Dir.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/File.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/JSONConvertible.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Log.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectError.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/PerfectServer.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/SysProcess.swift": [1526436381, 0]
+  "/Users/caochengfei/Desktop/swiftServiceTest/.build/checkouts/PerfectLib.git-3712999737848873669/Sources/PerfectLib/Utilities.swift": [1526436381, 0]
